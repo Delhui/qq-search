@@ -1,0 +1,67 @@
+.qq-con {
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+/* S 取消input框type为number时，框内右侧出现的上下按钮 */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input:-webkit-autofill {
+    box-shadow: 0 0 0px 1000px #fff inset !important;
+    -webkit-text-fill-color: #000 !important;
+}
+
+/* E 取消input框type为number时，框内右侧出现的上下按钮 */
+
+input {
+    border: 0;
+    border-bottom: 1px solid gray;
+    outline: none;
+    background-color: #fff;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 120px;
+    height: 45px;
+    background-color: #f5f5f6;
+}
+.status-info {
+    line-height: 45px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+.right {
+    width: 65px;
+}
+
+.name, .qq {
+    height: 20px;
+    line-height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.font-12 {
+    font-size: 12px;
+}
